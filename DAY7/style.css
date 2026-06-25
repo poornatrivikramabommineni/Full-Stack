@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+    color: rgb(21, 42, 235);
+  height: 200px;
+  background-color: rgb(251, 245, 167);
+}
+nav {
+  height: 150px;
+  background-color: rgb(255, 151, 208);
+}
+main {
+  display: flex;
+}
+
+.child1 {
+  width: 60%;
+}
+
+.child2 {
+  width: 40%;
+}
+main > .child1 > section {
+  height: 200px;
+  background-color: rgb(179, 49, 241);
+}
+main > .child1 > article {
+  height: 200px;
+  background-color: rgb(255, 98, 187);
+}
+main > .child2 > aside {
+  height: 400px;
+  background-color: rgb(251, 245, 167);
+}
+footer {
+  height: 200px;
+  background-color: rgb(137, 215, 183);
+}
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
